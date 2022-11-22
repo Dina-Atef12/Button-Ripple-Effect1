@@ -2,7 +2,8 @@ const btnEl = document.querySelector(".btn");
 
 btnEl.addEventListener("mouseover", (event) => {
   const x = event.pageX - btnEl.offsetLeft;
-   /*x=horizontal     mouse pointers */
+  
+  /*x=horizontal     mouse pointers */
   const y = event.pageY - btnEl.offsetTop;
 
   /* y=vertical    mouse pointers*/

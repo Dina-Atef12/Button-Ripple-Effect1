@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    /* Margins are used to create space around elements, outside of any defined borders. */
+    display: flex;
+    /* The default display value for most elements is block or inline.*/
+    justify-content: center;
+    /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
+    height: 100vh;
+    /* The height property sets the height of an element.*/
+    align-items: center;
+    /* Use the align-items property to align the items vertically.*/
+    background-color: rgb(54, 115, 142);
+    /* The background-color property sets the background color of an element.*/
+    font-family: sans-serif;
+    /* The font-family property specifies the font for an element.*/
+  }
+  
+  .btn {
+    background-color: rgb(172, 201, 209);
+    padding: 20px 40px;
+    /*An element's padding is the space between its content and its border. */
+    border-radius: 5px;
+    /* The border-radius property defines the radius of the element's corners.*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* The box-shadow property attaches one or more shadows to an element.*/
+    text-decoration: none;
+    /* The text-decoration property specifies the decoration added to text*/
+    color: black;
+    /*The color property specifies the color of text. */
+    position: relative;
+    /* The position property specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky).*/
+    overflow: hidden;
+    /*The overflow property specifies what should happen if content overflows an element's box. */
+  }
+  
+  .btn span {
+    position: relative;
+    z-index: 1;
+    /*The z-index property specifies the stack order of an element. */
+  }
+  
+  .btn::before/*::before is used to add content before the element you use it with*/
+   {
+    content: "";
+    /* The content property is used with the ::before and ::after pseudo-elements, to insert generated content.*/
+    position: absolute;
+    background-color: rgb(3, 48, 56);
+    width: 0;
+    /* The width property sets the width of an element.*/
+    height: 0;
+    left: var(--xPos);
+    /*The left property affects the horizontal position of a positioned element. This property has no effect on non-positioned elements.*/
+    top: var(--yPos);
+    /*The top property affects the vertical position of a positioned element. This property has no effect on non-positioned elements.*/
+    transform: translate(-50%, -50%);
+    /*The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.
+*/
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+    /*The transition property is a shorthand property for:
+
+transition-property
+transition-duration
+transition-timing-function
+transition-delay*/
+  }
+  
+  .btn:hover::before/*:hover condition for btn:before in an element.*/  {
+    width: 300px;
+    height: 300px;
+  }
