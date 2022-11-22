@@ -28,6 +28,7 @@ body {
    
     /*An element's padding is the space between its content and its border. */
     border-radius: 5px;
+    
     /* The border-radius property defines the radius of the element's corners.*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     /* The box-shadow property attaches one or more shadows to an element.*/
