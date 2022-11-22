@@ -25,6 +25,7 @@ body {
   .btn {
     background-color: rgb(172, 201, 209);
     padding: 20px 40px;
+   
     /*An element's padding is the space between its content and its border. */
     border-radius: 5px;
     /* The border-radius property defines the radius of the element's corners.*/
