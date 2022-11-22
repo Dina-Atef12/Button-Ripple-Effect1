@@ -63,6 +63,7 @@ body {
     position: absolute;
     background-color: rgb(3, 48, 56);
     width: 0;
+    
     /* The width property sets the width of an element.*/
     height: 0;
     left: var(--xPos);
