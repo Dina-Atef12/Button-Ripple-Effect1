@@ -6,6 +6,7 @@ body {
     
     /* The default display value for most elements is block or inline.*/
     justify-content: center;
+    
     /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
     height: 100vh;
     /* The height property sets the height of an element.*/
