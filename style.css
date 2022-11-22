@@ -73,6 +73,7 @@ body {
    
     /*The top property affects the vertical position of a positioned element. This property has no effect on non-positioned elements.*/
     transform: translate(-50%, -50%);
+    
     /*The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.
 */
     border-radius: 50%;
