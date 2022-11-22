@@ -43,6 +43,7 @@ body {
    
     /* The position property specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky).*/
     overflow: hidden;
+    
     /*The overflow property specifies what should happen if content overflows an element's box. */
   }
   
