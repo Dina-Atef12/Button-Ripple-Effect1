@@ -78,6 +78,7 @@ body {
 */
     border-radius: 50%;
     transition: width 0.5s, height 0.5s;
+    
     /*The transition property is a shorthand property for:
 
 transition-property
