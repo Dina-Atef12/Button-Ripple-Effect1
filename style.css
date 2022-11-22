@@ -67,6 +67,7 @@ body {
     /* The width property sets the width of an element.*/
     height: 0;
     left: var(--xPos);
+    
     /*The left property affects the horizontal position of a positioned element. This property has no effect on non-positioned elements.*/
     top: var(--yPos);
     /*The top property affects the vertical position of a positioned element. This property has no effect on non-positioned elements.*/
