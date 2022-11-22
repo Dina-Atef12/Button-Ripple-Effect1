@@ -87,7 +87,8 @@ transition-timing-function
 transition-delay*/
   }
   
-  .btn:hover::before/*:hover condition for btn:before in an element.*/  {
+  .btn:hover::before
+  /*:hover condition for btn:before in an element.*/  {
     width: 300px;
     height: 300px;
   }
