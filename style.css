@@ -1,5 +1,6 @@
 body {
     margin: 0;
+   
     /* Margins are used to create space around elements, outside of any defined borders. */
     display: flex;
     /* The default display value for most elements is block or inline.*/
