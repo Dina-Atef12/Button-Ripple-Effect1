@@ -3,6 +3,7 @@ body {
    
     /* Margins are used to create space around elements, outside of any defined borders. */
     display: flex;
+    
     /* The default display value for most elements is block or inline.*/
     justify-content: center;
     /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
